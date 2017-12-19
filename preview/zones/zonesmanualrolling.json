@@ -143,14 +143,8 @@
       "properties": {
         "singlePlacementGroup": "true",
         "upgradePolicy": {
-          "mode": "Rolling",
-          "automaticOSUpgrade": "false",
-          "rollingUpgradePolicy": {
-            "maxBatchInstancePercent": 20,
-            "maxUnhealthyInstancePercent": 25,
-            "maxUnhealthyUpgradedInstancePercent": 10,
-            "pauseTimeBetweenBatches": "PT0S"
-          }
+          "mode": "Manual",
+          "automaticOSUpgrade": "false"
         },
         "overprovision": "true",
         "virtualMachineProfile": {
