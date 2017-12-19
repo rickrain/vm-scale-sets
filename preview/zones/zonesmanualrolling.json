@@ -136,7 +136,7 @@
         "[resourceId('Microsoft.Network/virtualNetworks/', variables('newVNETName'))]"
       ],
       "sku": {
-        "name": "Standard_DS1_v2",
+        "name": "Standard_L4s",
         "tier": "Standard",
         "capacity": "[parameters('instanceCount')]"
       },
