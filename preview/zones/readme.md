@@ -16,7 +16,7 @@ What does pinning a scale set to a single zone give you that a regular (regional
 Pinning a scale set to a zone enables you to create multiple scale sets, each pinned to different zones, and therefore guarantee they are on physically isolated hardware.
 
 ### Example zonal scale set
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fvm-scale-sets%2Fmaster%2Fpreview%2Fzones%2Fsinglezone.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frickrain%2Fvm-scale-sets%2Fmaster%2Fpreview%2Fzones%2Fsinglezone.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
@@ -29,7 +29,7 @@ You can sign up to the zone redundant scale set preview here: [https://aka.ms/xz
 
 Note: This template will not work unless your Azure subscription has special feature flags enabled.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fvm-scale-sets%2Fmaster%2Fpreview%2Fzones%2Fmultizone.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frickrain%2Fvm-scale-sets%2Fmaster%2Fpreview%2Fzones%2Fmultizone.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
@@ -43,7 +43,7 @@ Load Balancer 'Standard' is currently available in the following regions (AZ sup
 
 Here is an example which also relies on the _VM Scale Sets manually triggered rolling image upgrade_ preview. It uses a Load Balancer 'Standard' sku to provide an applicaiton health probe.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fvm-scale-sets%2Fmaster%2Fpreview%2Fupgrade%2Fzonesmanualrolling.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frickrain%2Fvm-scale-sets%2Fmaster%2Fpreview%2Fupgrade%2Fzonesmanualrolling.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
